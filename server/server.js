@@ -12,3 +12,13 @@ app.listen(PORT, () =>{
 })
 
 //console
+const app = express();
+app.use(express.json());
+const port = 80;
+
+app.use(
+  cors({
+    origin: true,
+    credentials: true
+  })
+);
