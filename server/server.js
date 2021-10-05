@@ -14,7 +14,7 @@ app.listen(PORT, () =>{
 //console
 
 app.use(express.json());
-const port = 80;
+
 
 app.use(
   cors({
